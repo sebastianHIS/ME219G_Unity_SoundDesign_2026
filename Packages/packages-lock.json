@@ -82,6 +82,15 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.unity.postprocessing": {
+      "version": "file:com.unity.postprocessing@141166b789e3",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
     "com.unity.purchasing": {
       "version": "file:com.unity.purchasing@039fd41c6e81",
       "depth": 0,
@@ -122,6 +131,14 @@
         "com.unity.ext.nunit": "2.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.textmeshpro": {
+      "version": "file:com.unity.textmeshpro@53f43edfd2e0",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
       }
     },
     "com.unity.timeline": {
