@@ -334,8 +334,6 @@ namespace Gamekit2D
             bool facingLeft = m_CurrentBulletSpawnPoint == facingLeftBulletSpawnPoint;
             bullet.rigidbody2D.linearVelocity = new Vector2(facingLeft ? -bulletSpeed : bulletSpeed, 0f);
             bullet.spriteRenderer.flipX = facingLeft ^ bullet.bullet.spriteOriginallyFacesLeft;
-            
-            audioManager.PlayRanged();
         }
 
         // Public functions - called mostly by StateMachineBehaviours in the character's Animator Controller but also by Events.
